@@ -1,3 +1,6 @@
+# If the WHO_AM_I register value does not match the expected response, an error message is printed.
+#The while (1) loop continuously reads and prints data from the sensor every 500 milliseconds.
+
 #include <stdio.h>
 #include <wiringPi.h>
 #include <wiringPiSPI.h>
